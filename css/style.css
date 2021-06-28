@@ -10,8 +10,9 @@ body{
 .navbar{
     z-index: 4;
     width: 100%;
-    position: fixed; /* Set the navbar to fixed position */
+    position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    left: 0;
 }
 .nav-item.active {
     background-color: rgba(27, 27, 27, 0.363);
